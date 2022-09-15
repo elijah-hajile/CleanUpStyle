@@ -61,8 +61,18 @@ footer {
 
 /* Tablets - header changes color */
 @media screen and (max-width: 992px) {
+  .sample-img {
+    background-color: #fff;
+    width: 100%;
+    padding: 20px;
+    height: 200px;
+    border: 1px solid black;
+  }  
   header {
-    background: #772014;
+    background:  #772014;
+  }
+  footer {
+    background-color: green;
   }
 }
 
